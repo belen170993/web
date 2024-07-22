@@ -1,0 +1,39 @@
+body {
+    padding-top: 70px; /* Espacio para navbar fijo */
+}
+
+.fixed-top {
+    z-index: 1030; 
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.category-content {
+    display: none;
+}
+
+.category-content.active {
+    display: block;
+}
